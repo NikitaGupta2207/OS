@@ -7,8 +7,8 @@
 
 int main(int argc, char const *argv[])
 {
-    printf("\nHello\n");
-    printf("World\n");
+    printf("Hello\n");
+  //  printf("World\n");
     return 0;
 }
 
