@@ -78,5 +78,3 @@
 
     * Blocking -> Process may go into a waiting state
     * Non Blocking -> never block -> immediately return back after doing functionality
-
-    Inter process communication
