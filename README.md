@@ -85,6 +85,12 @@
 * Pipes
     * IPC
     * Unidirectional
-    * Can be achieved only in Related Process
+    * Used for Related Process
     * 1 -> Writing, 0 -> Reading
     * Child will inherit file descriptors
+
+* FIFO
+    * IPC
+    * Unidirectional
+    * Used for Unrelated Prcocess
+    * fifos aka named pipes
