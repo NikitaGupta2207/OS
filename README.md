@@ -79,4 +79,12 @@
     * Blocking -> Process may go into a waiting state
     * Non Blocking -> never block -> immediately return back after doing functionality
 
-    Inter Communication Proess
+*  Inter Communication Process (IPC)
+    P1-> P2
+
+* Pipes
+    * IPC
+    * Unidirectional
+    * Can be achieved only in Related Process
+    * 1 -> Writing, 0 -> Reading
+    * Child will inherit file descriptors
