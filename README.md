@@ -94,3 +94,4 @@
     * Unidirectional
     * Used for Unrelated Prcocess
     * fifos aka named pipes
+    * mkfifo (command and API)
