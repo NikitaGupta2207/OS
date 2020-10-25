@@ -95,3 +95,20 @@
     * Used for Unrelated Prcocess
     * fifos aka named pipes
     * mkfifo (command and API)
+
+* Batch
+* Multi programming
+* Multi tasking
+* Mutli processing
+* Multi user
+
+* Design
+    * Monolithic Approach
+        * eg. Linux, FreeRTOS
+        * Single address sapce
+    * Micro Kernel Approach
+        * eg. QNX, Minix
+        * Multiple adress space
+            * System Process -> Priviledged eg. Networking, DD
+            * User Process -> Non-Priviledeged -> MP3 player, Editor
+        * Message Queue used for information sharing
