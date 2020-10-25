@@ -112,3 +112,12 @@
             * System Process -> Priviledged eg. Networking, DD
             * User Process -> Non-Priviledeged -> MP3 player, Editor
         * Message Queue used for information sharing
+
+* Threads 
+    * POSIX
+    * Library pthread
+    * pthread_t
+    * pthread_attr_t -> Attributes
+        * Joinable - detachable
+        * Scheduling policy
+        * priority
