@@ -121,3 +121,9 @@
         * Joinable - detachable
         * Scheduling policy
         * priority
+    * Each thread has its own stack
+    * Threads share -> .teaxt, .data, .bss, .heap
+
+* Race condition
+    * Shared data
+    * Thread accessing shared data -> race condition
