@@ -135,7 +135,11 @@
         * Adaptive Mutax
         * Error Checking Mutax 
 
-* Semaphore
-    * Mutual Exclusion -> inital value -> 1
-    * Signalling
+* Semaphore(sem_t)
+    * Binary
+        * Mutual Exclusion -> inital value -> 1
+        * Signalling -> initial value ->0/1
     * Counting
+        * inital -> N
+
+* Zombie Processes and Inherited child
