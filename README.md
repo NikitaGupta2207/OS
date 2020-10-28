@@ -127,3 +127,15 @@
 * Race condition
     * Shared data
     * Thread accessing shared data -> race condition
+
+* Mutual Exclusion
+    * Mutex
+        * Futex
+        * Recursive Mutax
+        * Adaptive Mutax
+        * Error Checking Mutax 
+
+* Semaphore
+    * Mutual Exclusion -> inital value -> 1
+    * Signalling
+    * Counting
