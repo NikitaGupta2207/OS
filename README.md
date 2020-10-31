@@ -142,4 +142,22 @@
     * Counting
         * inital -> N
 
-* Zombie Processes and Inherited child
+* Zombie Processes and Inherited child(Orphan processes)
+
+* Read Write Locks
+
+* Scheduling algorithms
+    * Round Robin
+        * Time slicing
+        * Time slice -> Quantum time -> Quatum period
+    * Shotest job first
+        * Preemptive
+        * Non-Preemptive
+    * Priority base
+        * Preemptive
+        * Non-Preemptive
+    * FIFO
+* Multi-level scheduling
+
+* Response time
+* Throughput
