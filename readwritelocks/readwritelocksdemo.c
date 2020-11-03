@@ -7,11 +7,11 @@ pthread_rwlock_t count_rwlock;
 
 void *thread1(void *data)
 {
-  //  printf("T1: Entering inside in CS\n");
+    printf("T1: Entering inside in CS\n");
     pthread_rwlock_wrlock(&count_rwlock);
     count++;
     pthread_rwlock_unlock(&count_rwlock);
-    //printf("T1: Out of CS\n");
+    printf("T1: Out of CS\n");
 }
 
 void *thread2(void *data)

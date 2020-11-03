@@ -24,7 +24,7 @@ int main(int argc, char const *argv[])
   pthread_t tid_inc, tid_dec;
   pthread_create(&tid_inc, NULL, inc_thread, NULL);
   pthread_create(&tid_dec, NULL, dec_thread, NULL);
-   sleep(1);
+  sleep(1); 
   
   pthread_join(tid_inc, NULL);
   pthread_join(tid_dec, NULL);
