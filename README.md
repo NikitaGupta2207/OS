@@ -161,3 +161,7 @@
 
 * Response time
 * Throughput
+
+* Shared Memory
+* Massage Queues
+* Barriers
