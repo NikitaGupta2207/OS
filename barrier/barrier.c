@@ -8,7 +8,7 @@ void *seriel(void *arg)
 {
     printf("Serial: Initilizaton started\n");
     sleep(2);
-    printf("Seriel: Initilized completed\n");
+   // printf("Seriel: Initilized completed\n");
     
     printf("Seriel: Started\n");
 
@@ -17,7 +17,7 @@ void *ethernet(void *arg)
 {
     printf("ethernet: Initilizaton started\n");
     sleep(10);
-    printf("ethernet: Initilized completed\n");
+   // printf("ethernet: Initilized completed\n");
      printf("ethernat: Started\n");
 
 
@@ -26,7 +26,7 @@ void *lcd(void *arg)
 {
     printf("lcd: Initilizaton started\n");
     sleep(7);
-    printf("lcd: Initilized completed\n");
+    //printf("lcd: Initilized completed\n");
     printf("lcd: Started\n");
 
 }
@@ -34,7 +34,7 @@ void *adc(void *arg)
 {
     printf("adc: Initilizaton started\n");
     sleep(4);
-    printf("adc: Initilized completed\n");
+   // printf("adc: Initilized completed\n");
      
     printf("adc: Started\n");
 

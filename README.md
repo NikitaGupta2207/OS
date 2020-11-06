@@ -165,3 +165,7 @@
 * Shared Memory
 * Massage Queues
 * Barriers
+
+* Conditional Variables
+
+* Event Flag
